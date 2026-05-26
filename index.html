@@ -1,0 +1,53 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>UltraNews Clone</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="header">
+    <div class="container nav">
+      <div class="logo">ULTRA<span>NEWS</span></div>
+
+      <nav>
+        <ul class="menu">
+          <li><a href="#">الرئيسية</a></li>
+          <li><a href="#">تقنية</a></li>
+          <li><a href="#">ألعاب</a></li>
+          <li><a href="#">أخبار</a></li>
+          <li><a href="#">مقالات</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero container">
+    <div class="hero-main" id="featured-post">
+      جاري تحميل المقالات...
+    </div>
+
+    <div class="sidebar" id="sidebar-posts"></div>
+  </section>
+
+  <!-- POSTS -->
+  <section class="container">
+    <div class="section-title">
+      <h2>أحدث المواضيع</h2>
+    </div>
+
+    <div class="posts-grid" id="posts-container"></div>
+  </section>
+
+  <script src="app.js"></script>
+</body>
+</html>
